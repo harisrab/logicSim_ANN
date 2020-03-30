@@ -13,12 +13,16 @@ Lately I've been fascinated with the idea of neural architectures and the way it
 8. Testing
 9. Analysis of accuracy
                 
-		
+----
+
 ##Understanding the Neural Architecture
 First question arises as to how does neural architecture work. Well, it's best to draw parallels of it from a new born child. How do they learn? They learn by observing their surroundings, for exampe, their parents, or sibling if they have any. Watching with a curious eye as to how do they walk, talk, or do, child's mind starts to adapt its actions to mimic those of the others. 
 
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/giphy.gif)
 > Children are the best immitators in the world.
+
+If we are negligent of the vast underlying complexity of human mind, it becomes easy for us to say that we can replicate human mind in machine code but that would be a far fetched fantasy. 
+It can be very motivating to think of such fantasies and form goals that seem unachievable. Science has sought for us ways for achieving these goals by distilling them down into fundamental truths and reason up from there. This is exactly the right way of thinking when it comes to building something close in complexity to neural network. It makes perfect sense to start from fundamental decision makers in the world of compter science, logic gates, and simulate them in a way that is different to the way how it is traditionally done.
 
 #H1 header
 ####Ordered list
