@@ -1,28 +1,22 @@
-### Features
+# Logic Gate Simulator with ANN
+Lately I've been fascinated with the idea of neural architectures and the way it enables us to model human brain into computer and train them on complicated tasks that would otherwise be out of reach for traditional programming paradigms. Considering the simulation of logic gates, it is an easy task for traditional programming which can be implemeneted using if else selection statement, but I wanted to build it using artificial neural network. This will simulate how we as humans learn logic. 
 
-- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
-- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
-- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
-- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
-- Support identification, interpretation, fliter of the HTML tags;
-- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
-- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
-
-# Editor.md
-
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
-
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
-
-
-**Table of Contents**
-
-[TOCM]
-
-[TOC]
+##Table of Contents
+           
+1. Understanding Neural Architecture
+2. Selection of weights
+3. Designing the training dataset
+4. Barebones empty neural network
+5. Implementing forward propagation
+6. Backpropagation and learning data
+7. Saving the learned weights
+8. Testing
+9. Analysis of accuracy
+                
+----
 
 #H1 header
-##H2 header
+####Ordered list
 ###H3 header
 ####H4 header
 #####H5 header
@@ -202,13 +196,7 @@ Image:
     * Item C 2
     * Item C 3
 
-####Ordered list
-                
-1. Item A
-2. Item B
-3. Item C
-                
-----
+
                     
 ###Tables
                     
