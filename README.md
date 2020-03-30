@@ -1,5 +1,5 @@
 # Logic Gate Simulator with ANN
-Lately I've been fascinated with the idea of neural architectures and the way it enables us to model human brain into computer and train them on complicated tasks that would otherwise be out of reach for traditional programming paradigms. Considering the simulation of logic gates, it is an easy task for traditional programming which can be implemeneted using if else selection statements, but I wanted to build it using artificial neural network. This will simulate how we as humans learn logic. 
+Lately I've been fascinated with the idea of neural architectures and the way it enables us to model human brain into computer and train it on complicated tasks that would otherwise be out of reach for traditional programming paradigms. Considering the simulation of logic gates, it is an easy task for traditional programming which can be implemeneted using if else selection statements, but I wanted to build it using artificial neural network. This will simulate how we as humans learn logic. 
 
 Table of Contents
 -------------
@@ -30,6 +30,7 @@ The link above will guide you through the basics of how neural networks work and
 
 Designing the Training Dataset
 -------------
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/globe.gif)
 
 In the real world, for a child, data is observed, collected, and computed in the most seamless fashion, but here when we are to design something as simple as logic gates, we need to look for ways it would enable us to understand the data and be perfect so that our neural network does not have problems processing it.
 
@@ -46,17 +47,28 @@ Since here we are dealing with two input logic gates, our neural network needs t
 
 **Dataset:**
 
-Input | Output | | Input | Output || Input| Output
--------------  | -------------
-00000  | 0 ||  01000 | 0 || 10000 | 0
-00001  | 0 ||  01000 | 0 || 10001 | 0
-00010 | 0  ||  01000 | 0 || 10010 | 0
-00011 | 0  ||  01000 | 0 || 10011 | 0
-00100 | 0  ||  01100 | 0 || 11100 | 0
-00101 | 0  ||  01100 | 0 || 11101 | 0
-00110 | 0  ||  01100 | 0 || 11110 | 0
-00111 | 0  ||  01100 | 0 || 11111 | 0
 
+|Input   | Output |   | Input | Output||     Input | Output   |
+|--------|--------|---|------ |:------:|---|-------|:--------:|
+| 00000  |  0     |   | 01000 | 0      |   | 10000 | 0        |
+| 00001  |  1     |   | 01001 | 0      |   | 10001 | 1        |
+| 00010  |  1     |   | 01010 | 0      |   | 10010 | 1        |
+| 00011  |  1     |   | 01011 | 1      |   | 10011 | 0        |
+| 00100  |  1     |   | 01100 | 1      |   | 10100 | 1        |
+| 00101  |  0     |   | 01100 | 1      |   | 10101 | 0        |
+| 00110  |  0     |   | 01100 | 1      |   | 10110 | 0        |
+| 00111  |  0     |   | 01100 | 0      |   | 10111 | 1        |
+
+First three bits correspond to each different gate. Here is a table that gives that information:
+
+|Input   | Gate   |  
+|--------|--------|
+| 000    |  OR    |
+| 001    |  NOR   |
+| 010    |  AND   |
+| 011    |  NAND  |
+| 100    |  XOR   |
+| 101    |  NXOR  |
 
 #H1 header
 ####Ordered list
@@ -70,6 +82,9 @@ Input | Output | | Input | Output || Input| Output
 ####Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
 #####Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
 ######Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+
+
+
 
 ##Headers (Underline)
 
