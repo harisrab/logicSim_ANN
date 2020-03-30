@@ -31,6 +31,33 @@ The link above will guide you through the basics of how neural networks work and
 Designing the Training Dataset
 -------------
 
+In the real world, for a child, data is observed, collected, and computed in the most seamless fashion, but here when we are to design something as simple as logic gates, we need to look for ways it would enable us to understand the data and be perfect so that our neural network does not have problems processing it.
+
+When in our exams, we are asked to draw the truth table for logic gate, what information do we seek:
+
+1. Type of logic gate
+2. Input states
+
+
+Since here we are dealing with two input logic gates, our neural network needs to identify six different types of them and then take the inputs to tell us what they compute. We can use 3 bit code to identify a logic gate and 2 successive bits to identify inputs. Therefore our neural network stands at 5 inputs and one output for the answer. Well as far as the middle layer is concerned we use it to extract more detailed features and establish a correleation between the input and output if there exist none. Below is the picture of neural network we are going to design. 
+
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/neural_net.jpg)
+> Shape of the neural network
+
+**Dataset:**
+
+Input | Output | | Input | Output || Input| Output
+-------------  | -------------
+00000  | 0 ||  01000 | 0 || 10000 | 0
+00001  | 0 ||  01000 | 0 || 10001 | 0
+00010 | 0  ||  01000 | 0 || 10010 | 0
+00011 | 0  ||  01000 | 0 || 10011 | 0
+00100 | 0  ||  01100 | 0 || 11100 | 0
+00101 | 0  ||  01100 | 0 || 11101 | 0
+00110 | 0  ||  01100 | 0 || 11110 | 0
+00111 | 0  ||  01100 | 0 || 11111 | 0
+
+
 #H1 header
 ####Ordered list
 ###H3 header
@@ -221,10 +248,7 @@ First Header  | Second Header
 Content Cell  | Content Cell
 Content Cell  | Content Cell 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
 
 | Function name | Description                    |
 | ------------- | ------------------------------ |
