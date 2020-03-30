@@ -136,14 +136,19 @@ This function performs only one pass through the neural network updating all the
 
 Learning Repeatedly for Perfection in Prediction
 -------------
+
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/train.png)
 
+This function takes in the number of times the model needs to be trained on the training dataset. Usually this neural network take 10 epochs to train to give us accurate prediction. Error is exported to the screen after each epoch. Indexes for the datapoints inside the dataset are provided to the backpropagation function. Higher epoch enable us error that approaches 0, therefore enabling this neural network to give 100% accurate predictions.
 
 
 Activation Function
 -------------
+Simply put, the activation function calculates a weighted sum of its input, adds a bias and then decides wether it should be fired or not. We use Rectified Linear Units, or in short ReLU functions, as activation functions. It only fires when the input to the neuron is positive, otherwise throughputs a zero. 
+Simply put, it calculates a “weighted sum” of its input, adds a bias and then decides whether it should be “fired” or not 
 
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/relu.png)
+![](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2018/10/Line-Plot-of-Rectified-Linear-Activation-for-Negative-and-Positive-Inputs.png)
 
 The Main Function
 -------------
