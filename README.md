@@ -4,8 +4,8 @@ Lately I've been fascinated with the idea of neural architectures and the way it
 Table of Contents
 -------------
 1. Understanding Neural Architecture
-2. Selection of weights
-3. Designing the training dataset
+2. Designing the Training Dataset
+3. Selection of Weights
 4. Barebones empty neural network
 5. Implementing forward propagation
 6. Backpropagation and learning data
@@ -13,7 +13,6 @@ Table of Contents
 8. Testing
 9. Analysis of accuracy
                 
-----
 
 Understanding the Neural Architecture
 -------------
@@ -24,6 +23,13 @@ First question arises as to how does neural architecture work. Well, it's best t
 
 If we are negligent of the vast underlying complexity of human mind, it becomes easy for us to say that we can replicate human mind in machine code but that would be a far fetched fantasy. 
 It can be very motivating to think of such fantasies and form goals that seem unachievable. Science has sought for us ways for achieving these goals by distilling them down into fundamental truths and reason up from there. This is exactly the right way of thinking when it comes to building something close in complexity to neural network. It makes perfect sense to start from fundamental decision makers in the world of compter science, logic gates, and simulate them in a way that is different to the way how it is traditionally done.
+
+https://www.youtube.com/watch?v=aircAruvnKk
+
+The link above will guide you through the basics of how neural networks work and it has been an inspiration for me how he approaches the fundamental truths. Now we will design our inputs and outputs to create a dataset upon which our neural network can be trained to simulate and give correct predictions.
+
+Designing the Training Dataset
+-------------
 
 #H1 header
 ####Ordered list
