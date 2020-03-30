@@ -123,6 +123,10 @@ We take the inputs from the user and feed them through the input neurons and per
 Backpropagation
 -------------
 
+This architecture, being the most basic of all, is quite efficent for this application. So first we feed forward to acquire results of the two layers. Then find the error at the final layers using error function. Then using the derivative of the error function, deltas, we calculate the deltas for the hidden layer. Then final_delta and hidden_delta help us update the weight matrices, which enables us to learn. 
+
+This function performs only one pass through the neural network updating all the weights and calculating cumulative error at the output node.
+
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/backprop1.png)
 
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/backprop.png)
