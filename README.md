@@ -13,8 +13,7 @@ Lately I've been fascinated with the idea of neural architectures and the way it
 8. Testing
 9. Analysis of accuracy
                 
-----
-
+		
 ##Understanding the Neural Architecture
 First question arises as to how does neural architecture work. Well, it's best to draw parallels of it from a new born child. How do they learn? They learn by observing their surroundings, for exampe, their parents, or sibling if they have any. Watching with a curious eye as to how do they walk, talk, or do, child's mind starts to adapt its actions to mimic those of the others. 
 
