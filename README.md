@@ -70,19 +70,25 @@ First three bits correspond to each different gate. Here is a table that gives t
 | 100    |  XOR   |
 | 101    |  NXOR  |
 
-#H1 header
-####Ordered list
-###H3 header
-####H4 header
-#####H5 header
-######H6 header
-#Heading 1 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-##Heading 2 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-###Heading 3 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-####Heading 4 link [Heading link](https://github.com/pandao/editor.md "Heading link") Heading link [Heading link](https://github.com/pandao/editor.md "Heading link")
-#####Heading 5 link [Heading link](https://github.com/pandao/editor.md "Heading link")
-######Heading 6 link [Heading link](https://github.com/pandao/editor.md "Heading link")
+Selecting the Weights
+-------------
+If you go through the books and ask any professional data scientist, he will tell you that there is an art to selecting the correct inital weights, and they are very correct on that. The reason for carefully adjusting initail weights is that it can
 
+* negatively affect the training process by contributing to the vanishing or exploding gradient problem
+* cause the error function to never find its global minimum
+* cause slower weight update and converge slowly
+
+But having a beginners mind and to keep things simple I will go ahead and setup weights matrix randomly, which works more than perfectly for this application. We will later generlize the internal code to adapt to various dimensions of neural network. I use the following code in python to initialize them
+
+```python
+import numpy as np
+
+np.random.seed(1)
+
+weights_ih = 2 * np.random.random((5, 10)) - 1
+weights_ho = 2 * np.random.random((10, 1)) - 1
+
+```
 
 
 
