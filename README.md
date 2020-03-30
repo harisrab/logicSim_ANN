@@ -1,5 +1,5 @@
 # Logic Gate Simulator with ANN
-Lately I've been fascinated with the idea of neural architectures and the way it enables us to model human brain into computer and train it on complicated tasks that would otherwise be out of reach for traditional programming paradigms. Considering the simulation of logic gates, it is an easy task for traditional programming which can be implemeneted using if else selection statements, but I wanted to build it using artificial neural network. This will simulate how we as humans learn logic. 
+Lately I've been fascinated with the idea of neural architectures and the way they enables us to model human brain into computer and train them on complicated tasks that would otherwise be out of reach for traditional programming paradigms. Considering the simulation of logic gates, it is an easy task for traditional programming which can be implemeneted using if else selection statements, but I wanted to build it using artificial neural network. This will simulate how we as humans learn logic. 
 
 Table of Contents
 -------------
@@ -93,23 +93,71 @@ weights_ho = 2 * np.random.random((10, 1)) - 1
 Barebones of Empty ANN
 -------------
 
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/barebones.png)
+
+Here we create a very basic skeleton for our logical brain with a class containing all functions related to the neural network. It's a good idea to keep everything well organized in order to avoid mess when programs get large.
+
+Initiation:
+-------------
+
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/__init__.png)
+
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/training_data.png)
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/training_targets.png)
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/mod_inputs.png)
+
+
 Implementing Forward Propagation
 -------------
+
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/forward_propagation.png)
+
+We take the inputs from the user and feed them through the input neurons and perform dot product with the weight matrix to evolve a vector which comes out of the hidden layer. Second half of the feed-forward procedure happens in the third line where our outputs are dervied. These can either be used for backpropagtion or for the sole purpose of forward-feed.
 
 Backpropagation
 -------------
 
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/backprop1.png)
+
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/backprop.png)
+
+
+
+
 Learning Repeatedly for Perfection in Prediction
 -------------
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/train.png)
 
 
-Save the Pickles
+
+Activation Function
+-------------
+
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/relu.png)
+
+The Main Function
+-------------
+
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/main.png)
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/main1.png)
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/main2.png)
+
+Save the Training
 -------------
 
 
 Testing
 -------------
 
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/Peek%202020-03-31%2002-11.gif)
+
 
 Analysis and Reflections on Accuracy
 -------------
+
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/analysis_preweight.png)
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/analysis_postweight.png)
+
+Final Code
+-------------
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/code.gif)
