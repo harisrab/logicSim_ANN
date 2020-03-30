@@ -90,6 +90,33 @@ weights_ho = 2 * np.random.random((10, 1)) - 1
 
 ```
 
+Barebones of Empty ANN
+-------------
+
+Implementing Forward Propagation
+-------------
+
+Backpropagation
+-------------
+
+Learning Repeatedly for Perfection in Prediction
+-------------
+
+
+Save the Pickles
+-------------
+
+
+Testing
+-------------
+
+
+Analysis and Reflections on Accuracy
+-------------
+
+
+
+
 
 
 ##Headers (Underline)
