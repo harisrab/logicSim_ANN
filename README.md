@@ -102,9 +102,15 @@ Initiation:
 
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/__init__.png)
 
+First we print out some welcome statements to indicate execution of the constructor. Then we take in the external parameters and assign them to the variables that will be used used inside the class. A learning rate is setup that helps us with the approaching of the global minimum incremently. Weights are randomly setup inside the constructor to enable them at the start of program.
+
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/training_data.png)
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/training_targets.png)
+
+We replicate the dataset using numpy arrays, which helps us with fast matrix computations, with the same structure as that discussed in earlier sections. We represent bits with zeros and ones, but they do not give a very accuracte prediction and learning rates, therefore we decide to change them to floating points.This increases the neural network's learning ability by a factor of 10. Small tweaks can lead to optimum parameters.
+
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/mod_inputs.png)
+
 
 
 Implementing Forward Propagation
