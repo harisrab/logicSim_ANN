@@ -1,5 +1,5 @@
 # Logic Gate Simulator with ANN
-Lately I've been fascinated with the idea of neural architectures and the way it enables us to model human brain into computer and train them on complicated tasks that would otherwise be out of reach for traditional programming paradigms. Considering the simulation of logic gates, it is an easy task for traditional programming which can be implemeneted using if else selection statement, but I wanted to build it using artificial neural network. This will simulate how we as humans learn logic. 
+Lately I've been fascinated with the idea of neural architectures and the way it enables us to model human brain into computer and train them on complicated tasks that would otherwise be out of reach for traditional programming paradigms. Considering the simulation of logic gates, it is an easy task for traditional programming which can be implemeneted using if else selection statements, but I wanted to build it using artificial neural network. This will simulate how we as humans learn logic. 
 
 ##Table of Contents
            
@@ -14,6 +14,12 @@ Lately I've been fascinated with the idea of neural architectures and the way it
 9. Analysis of accuracy
                 
 ----
+
+##Understanding the Neural Architecture
+First question arises as to how does neural architecture work. Well, it's best to draw parallels of it from a new born child. How do they learn? They learn by observing their surroundings, for exampe, their parents, or sibling if they have any. Watching with a curious eye as to how do they walk, talk, or do, child's mind starts to adapt its actions to mimic those of the others. 
+
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/giphy.gif)
+> Children are the best immitators in the world.
 
 #H1 header
 ####Ordered list
