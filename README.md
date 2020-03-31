@@ -158,22 +158,20 @@ We define the matrix containers for the training datasets and targets, and then 
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/main2.png)
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/main3.png)
 
-Save the Training
--------------
-
-
 Testing
 -------------
 
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/Peek%202020-03-31%2002-11.gif)
 
+Upon execution and running backpropagation training algorithm, we observe that the error approaches zero rapidly. Therefore, it idicates that there is a strong correlation of inputs with the outputs and neural network is converging, which is a strong indicator of potential predictive model. Above all it works flawlessly!
 
-Analysis and Reflections on Accuracy
--------------
-
+In the pictures below we see the weights matrix initialization has been altered. While sifting through some research papers I came across some valuable insights on improving the rate of learning by adjusting the weights matrix. Therefore, applying formula to the orignal matrix helped neural network converge. 
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/analysis_preweight.png)
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/analysis_postweight.png)
 
 Final Code
 -------------
+
+This took me one entire day to write and this is already exhilirating. This is just a small glimpse of what neural networks are capable of. I believe future projects will grow by leaps and bounds as I dive in deeper to refine my techniques in using my own tools.
+
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/code.gif)
