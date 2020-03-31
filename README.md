@@ -152,10 +152,11 @@ Simply put, it calculates a “weighted sum” of its input, adds a bias and the
 
 The Main Function
 -------------
+We define the matrix containers for the training datasets and targets, and then we initilize the nural network. It is here we design a command interface with a menu that enables the user to interact with the simulation. They can have the option to train it multiple times with variable parameters. Upon training, they can test the accuracy of predictions, and they can exit the program whenever they like.
 
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/main.png)
-![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/main1.png)
 ![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/main2.png)
+![](https://github.com/harisrab/logicSim_ANN/blob/master/examples/main3.png)
 
 Save the Training
 -------------
